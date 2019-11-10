@@ -1,0 +1,33 @@
+{
+  "name": "company-details-api-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Griffin <me@nicholasgriffin.co.uk>",
+  "license": "MIT",
+  "homepage": "https://nicholasgriffin.dev",
+  "dependencies": {
+    "@sentry/node": "5.5.0",
+    "async": "^3.1.0",
+    "aws-sdk": "^2.522.0",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "cors": "^2.8.5",
+    "express": "*",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0",
+    "serverless-api-gateway-caching": "^1.4.0",
+    "serverless-dynamodb-client": "0.0.2",
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-http": "*"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.3.3"
+  }
+}

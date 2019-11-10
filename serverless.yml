@@ -1,0 +1,22 @@
+service: company-details-api
+
+plugins:
+  - serverless-offline
+  - serverless-api-gateway-caching
+
+provider:
+  name: aws 
+  runtime: nodejs8.10
+  stage: dev
+  region: eu-west-2
+
+functions:
+  app:
+    handler: app.server
+    events:
+      - http:
+          path: /
+          method: ANY
+          cors: true
+          caching:
+            enabled: true
