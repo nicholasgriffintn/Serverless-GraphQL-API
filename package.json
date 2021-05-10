@@ -19,7 +19,7 @@
     "express": "*",
     "express-graphql": "^0.9.0",
     "graphql": "^14.5.8",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "nodemon": "^1.19.2",
     "request": "^2.88.0",
     "serverless-api-gateway-caching": "^1.4.0",
