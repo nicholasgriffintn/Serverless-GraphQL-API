@@ -22,7 +22,7 @@
     "lodash": "^4.17.21",
     "nodemon": "^1.19.2",
     "request": "^2.88.0",
-    "serverless-api-gateway-caching": "^1.4.0",
+    "serverless-api-gateway-caching": "^1.7.4",
     "serverless-dynamodb-client": "0.0.2",
     "serverless-dynamodb-local": "^0.2.38",
     "serverless-http": "*"
