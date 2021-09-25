@@ -2175,11 +2175,6 @@ lodash.once@^4.0.0:
   resolved "https://registry.yarnpkg.com/lodash.once/-/lodash.once-4.1.1.tgz#0dd3971213c7c56df880977d504c88fb471a97ac"
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
 
-lodash.split@^4.4.0:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/lodash.split/-/lodash.split-4.4.2.tgz#a7f7bd9f37968b9312428e2f3ac3fb3173c4c3c6"
-  integrity sha1-p/e9nzeWi5MSQo4vOsP7MXPEw8Y=
-
 lodash@^4.17.0, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
@@ -3019,14 +3014,13 @@ serve-static@1.14.1:
     parseurl "~1.3.3"
     send "0.17.1"
 
-serverless-api-gateway-caching@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/serverless-api-gateway-caching/-/serverless-api-gateway-caching-1.4.0.tgz#4c874c04655f1e2b7298ebd5582e88e9d0e026e9"
-  integrity sha512-5vc0dCFSMV/a9nGnyKq7WMddOuoeOxZVarCLSCJPqGtzM1BuzsSSrqd7JlrQkVFN+ln1yUfxEx4YOeKgy5FLbQ==
+serverless-api-gateway-caching@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/serverless-api-gateway-caching/-/serverless-api-gateway-caching-1.7.4.tgz#f9880b01281c699035066ee874a3a15a33f5f77f"
+  integrity sha512-SAmwxFVtw6iY6OfHPDU4aIo4SpRkITtYGe7ksNa2lLN+jFW5urTv81V8wdRleJNVpYKNKO7Kj7Xl40LCN0nHAA==
   dependencies:
     lodash.get "^4.4.2"
     lodash.isempty "^4.4.0"
-    lodash.split "^4.4.0"
 
 serverless-dynamodb-client@0.0.2:
   version "0.0.2"
