@@ -10,7 +10,7 @@
   "license": "MIT",
   "homepage": "https://nicholasgriffin.dev",
   "dependencies": {
-    "@sentry/node": "5.5.0",
+    "@sentry/node": "5.30.0",
     "async": "^3.1.0",
     "aws-sdk": "^2.522.0",
     "body-parser": "^1.19.0",
